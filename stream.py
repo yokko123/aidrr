@@ -111,8 +111,8 @@ def _save_uploadedfile(uploadedfile):
     '''
         Saves uploaded videos to disk.
     '''
-    with open(os.path.join("data", "videos",uploadedfile.name),"wb") as f:
-        f.write(uploadedfile.getbuffer())
+    #with open(os.path.join("data", "videos",uploadedfile.name),"wb") as f:
+     #   f.write(uploadedfile.getbuffer())
 
 
 def _format_func(option):
